@@ -27,9 +27,10 @@ The values represent the beginning state of the transformations. The completed s
 {
   offset: .2, // 0.2 * windowHeight
   distance: .3, // 0.3 * windowHeight
-  translateX: 0, //px
-  translateY: 0, //px
-  translateZ: 0, //px
+  translateX: 0, //translateUnit(defaults to 'px')
+  translateY: 0, //translateUnit(defaults to 'px')
+  translateZ: 0, //always 'px'
+  translateUnit: 'px', //use '%','vw' or 'vh' if you want
   skewX: 0, //deg
   skewY: 0, //deg
   scale: 1,

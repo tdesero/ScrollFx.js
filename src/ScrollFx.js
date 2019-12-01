@@ -7,6 +7,7 @@ export class ScrollFx {
       translateX: 0,
       translateY: 0,
       translateZ: 0,
+      translateUnit: 'px',
       skewX: 0,
       skewY: 0,
       scale: 1,
@@ -70,6 +71,7 @@ export class ScrollFx {
       this.elementsInfo[i].translateX = Number(this.elements[i].getAttribute('data-translate-x')) || this.options.translateX;
       this.elementsInfo[i].translateY = Number(this.elements[i].getAttribute('data-translate-y')) || this.options.translateY;
       this.elementsInfo[i].translateZ = Number(this.elements[i].getAttribute('data-translate-z')) || this.options.translateZ;
+      this.elementsInfo[i].translateUnit = this.elements[i].getAttribute('data-translate-unit') || this.options.translateUnit;
       this.elementsInfo[i].skewX = Number(this.elements[i].getAttribute('data-skew-x')) || this.options.skewX;
       this.elementsInfo[i].skewY = Number(this.elements[i].getAttribute('data-skew-y')) || this.options.skewY;
       this.elementsInfo[i].rotate = Number(this.elements[i].getAttribute('data-rotate')) || this.options.rotate;
@@ -146,6 +148,7 @@ export class ScrollFx {
         let translateX = (1 - easingFunction(factor)) * info.translateX;
         let translateY = (1 - easingFunction(factor)) * info.translateY;
         let translateZ = (1 - easingFunction(factor)) * info.translateZ;
+        let unit = info.translateUnit;
         let skewX = (1 - easingFunction(factor)) * info.skewX;
         let skewY = (1 - easingFunction(factor)) * info.skewY;
         let scale = ((easingFunction(factor) * (1 - info.scale)) + info.scale);
@@ -154,7 +157,7 @@ export class ScrollFx {
         let blur = (1 - easingFunction(factor)) * info.blur;
 
         element.style.transform =
-          'translate3d(' + translateX + 'px, ' + translateY + 'px, ' + translateZ + 'px) ' +
+          'translate3d(' + translateX + unit + ', ' + translateY + unit + ', ' + translateZ + 'px) ' +
           'skew(' + skewX + 'deg,' + skewY + 'deg)' +
           'scale(' + scale + ') ' +
           'rotate(' + rotate + 'deg) ';
