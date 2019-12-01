@@ -1,0 +1,63 @@
+body {
+  font-family: inter, sans-serif;
+  overflow-x: hidden;
+}
+
+.xxl-text span {
+  display: inline-block;
+  font-size: 20vh;
+}
+
+/*------------------
+ *    Utility
+ *-----------------*/
+
+/*margins*/
+.mt-25vh {
+  margin-top: 25vh !important;
+}
+
+.mt-50vh {
+  margin-top: 50vh !important;
+}
+
+.mt-75vh {
+  margin-top: 75vh !important;
+}
+
+.mt-100vh {
+  margin-top: 100vh !important;
+}
+
+.mb-25vh {
+  margin-bottom: 25vh !important;
+}
+
+.mb-50vh {
+  margin-bottom: 50vh !important;
+}
+
+.mb-75vh {
+  margin-bottom: 75vh !important;
+}
+
+.mb-100vh {
+  margin-bottom: 100vh !important;
+}
+
+/*heights*/
+.h-25vh {
+  height: 25vh !important;
+}
+
+.h-50vh {
+  height: 50vh !important;
+}
+
+.h-75vh {
+  height: 75vh !important;
+}
+
+.h-100vh {
+  height: 100vh !important;
+}

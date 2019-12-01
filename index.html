@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ScrollFx draft 3</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://rsms.me/inter/inter.css'><link rel="stylesheet" href="./dist/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Header -->
+<div class="container-fluid bg-light pt-5">
+  <div class="container">
+    <div class="h-25vh"></div>
+    <div class="row h-75vh">
+      <div class="col-8 mx-auto text-center">
+        <h1 class="display-3 mb-3"><strong>ScrollFx</strong>.js</h1>
+        <p class="h5 mb-5">Just another Scroll library to generate awesome Scroll effects. Easier than ever. Scroll Down to see something happening.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 3 Cards -->
+<div class="container mb-5 mt-n5">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".10" data-skew-y="10">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".20" data-skew-y="10">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".30" data-skew-y="10">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Headline & Text -->
+<div class="container mt-25vh mb-25vh scroll-fx" data-scale="0.5">
+  <div class="row">
+    <div class="col-md-6 mb-5">
+      <h3 class="h1">
+        Some Headline about Something.
+      </h3>
+    </div>
+    <div class="col-md-6 mb-5">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Some Kind of List -->
+<div class="container mt-25vh mb-25vh">
+  <div class="row">
+    <div class="col-md-6 mb-5">
+      <ul class="list-unstyled">
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0" data-scale="0.0">Easy</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Individual</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Nice</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Lovely</li>
+      </ul>
+    </div>
+    <div class="col-md-6 mb-5 scroll-fx" data-translate-x="200" data-skew-x="50" data-offset="0" data-distance="0.8">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- 3 Cards -->
+<div class="container mb-5 mt-n5 scroll-fx" data-translate-y="200" data-scale="0.7" data-blur="50">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Headline & Text -->
+<div class="container mt-25vh mb-25vh">
+  <div class="row scroll-fx" data-rotate="360" data-distance=".400" data-offset="0">
+    <div class="col-md-6 mb-5">
+      <h3 class="h1">
+        Funky Fresh Effex.
+      </h3>
+    </div>
+    <div class="col-md-6 mb-5">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-primary py-5">
+  <div class="container mb-5">
+    <div class="scroll-fx-stagger-container" data-stagger=".02">
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Fade In</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Effect</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Even</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Staggering</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Possible</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Now</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">How</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Nice</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Cool</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Individual</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+    </div>
+  </div>
+</div>
+
+<!-- xxl text -->
+<div class="container">
+  <div class="row mb-50vh mt-50vh">
+    <div class="col text-center">
+      <h3 class="xxl-text">
+        <span class="scroll-fx" data-rotate="-140" data-translate-y="500" data-offset=".400">Y</span>
+        <span class="scroll-fx" data-rotate="-80" data-translate-x="-300" data-offset=".400">E</span>
+        <span class="scroll-fx" data-rotate="20" data-translate-y="-500" data-offset=".400">A</span>
+        <span class="scroll-fx" data-rotate="120" data-translate-x="700" data-offset=".400">H</span>
+        <span class="scroll-fx" data-rotate="280" data-offset=".400">!</span>
+      </h3>
+    </div>
+  </div>
+</div>
+
+<!-- check Performance -->
+<div class="container-fluid bg-primary py-5">
+  <div class="container mb-5">
+      <div class="row">
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".050">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".100">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".150">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".200">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".250">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".300">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".350">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".400">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- duplicate -->
+<!-- 3 Cards -->
+<div class="container mb-5 mt-n5">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".10">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".20">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".30">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Headline & Text -->
+<div class="container mt-25vh mb-25vh scroll-fx" data-scale="0.5">
+  <div class="row">
+    <div class="col-md-6 mb-5">
+      <h3 class="h1">
+        Some Headline about Something.
+      </h3>
+    </div>
+    <div class="col-md-6 mb-5">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Some Kind of List -->
+<div class="container mt-25vh mb-25vh">
+  <div class="row">
+    <div class="col-md-6 mb-5">
+      <ul class="list-unstyled">
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0" data-scale="0.0">Easy</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Individual</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Nice</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Lovely</li>
+      </ul>
+    </div>
+    <div class="col-md-6 mb-5 scroll-fx" data-translate-x="200">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- 3 Cards -->
+<div class="container mb-5 mt-n5 scroll-fx" data-translate-y="200" data-scale="0.7">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Headline & Text -->
+<div class="container mt-25vh mb-25vh">
+  <div class="row scroll-fx" data-rotate="360" data-distance=".400" data-offset="0">
+    <div class="col-md-6 mb-5">
+      <h3 class="h1">
+        Funky Fresh Effex.
+      </h3>
+    </div>
+    <div class="col-md-6 mb-5">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-primary py-5">
+  <div class="container mb-5">
+    <div class="scroll-fx-stagger-container" data-stagger=".02">
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Fade In</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Effect</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Even</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Staggering</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Possible</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Now</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">How</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Nice</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Cool</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Individual</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+    </div>
+  </div>
+</div>
+
+<!-- xxl text -->
+<div class="container">
+  <div class="row mb-50vh mt-50vh">
+    <div class="col text-center">
+      <h3 class="xxl-text">
+        <span class="scroll-fx" data-rotate="-140" data-translate-y="500" data-offset=".400">Y</span>
+        <span class="scroll-fx" data-rotate="-80" data-translate-x="-300" data-offset=".400">E</span>
+        <span class="scroll-fx" data-rotate="20" data-translate-y="-500" data-offset=".400">A</span>
+        <span class="scroll-fx" data-rotate="120" data-translate-x="700" data-offset=".400">H</span>
+        <span class="scroll-fx" data-rotate="280" data-offset=".400">!</span>
+      </h3>
+    </div>
+  </div>
+</div>
+
+<!-- check Performance -->
+<div class="container-fluid bg-primary py-5">
+  <div class="container mb-5">
+      <div class="row">
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".050">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".100">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".150">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".200">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".250">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".300">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".350">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".400">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+<!-- 3 Cards -->
+<div class="container mb-5 mt-n5">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".10">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".20">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white scroll-fx" data-translate-y="200" data-offset=".30">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Headline & Text -->
+<div class="container mt-25vh mb-25vh scroll-fx" data-scale="0.5">
+  <div class="row">
+    <div class="col-md-6 mb-5">
+      <h3 class="h1">
+        Some Headline about Something.
+      </h3>
+    </div>
+    <div class="col-md-6 mb-5">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Some Kind of List -->
+<div class="container mt-25vh mb-25vh">
+  <div class="row">
+    <div class="col-md-6 mb-5">
+      <ul class="list-unstyled">
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0" data-scale="0.0">Easy</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Individual</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Nice</li>
+        <li class="h1 scroll-fx" data-translate-x="-50" data-opacity="0.0">Lovely</li>
+      </ul>
+    </div>
+    <div class="col-md-6 mb-5 scroll-fx" data-translate-x="200">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- 3 Cards -->
+<div class="container mb-5 mt-n5 scroll-fx" data-translate-y="200" data-scale="0.7">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Headline & Text -->
+<div class="container mt-25vh mb-25vh">
+  <div class="row scroll-fx" data-rotate="360" data-distance=".400" data-offset="0">
+    <div class="col-md-6 mb-5">
+      <h3 class="h1">
+        Funky Fresh Effex.
+      </h3>
+    </div>
+    <div class="col-md-6 mb-5">
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-primary py-5">
+  <div class="container mb-5">
+    <div class="scroll-fx-stagger-container" data-stagger=".02">
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Fade In</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Effect</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Even</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Staggering</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Possible</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Now</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">How</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Nice</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Cool</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Individual</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+      <button class="btn btn-lg btn-outline-light mb-2 mr-1 scroll-fx" data-translate-y="100" data-opacity="0">Button</button>
+    </div>
+  </div>
+</div>
+
+<!-- xxl text -->
+<div class="container">
+  <div class="row mb-50vh mt-50vh">
+    <div class="col text-center">
+      <h3 class="xxl-text">
+        <span class="scroll-fx" data-rotate="-140" data-translate-y="500" data-offset=".400">Y</span>
+        <span class="scroll-fx" data-rotate="-80" data-translate-x="-300" data-offset=".400">E</span>
+        <span class="scroll-fx" data-rotate="20" data-translate-y="-500" data-offset=".400">A</span>
+        <span class="scroll-fx" data-rotate="120" data-translate-x="700" data-offset=".400">H</span>
+        <span class="scroll-fx" data-rotate="280" data-offset=".400">!</span>
+      </h3>
+    </div>
+  </div>
+</div>
+
+<!-- check Performance -->
+<div class="container-fluid bg-primary py-5">
+  <div class="container mb-5">
+      <div class="row">
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".050">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".100">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".150">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".200">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".250">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".300">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".350">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 mb-5">
+          <div class="card shadow-lg scroll-fx" data-translate-y="20" data-scale="0.7" data-offset=".400">
+            <img class="card-img-top" src="https://images.unsplash.com/photo-1517440023-645ef73128ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80">
+            <div class="card-body">
+              <h5>Lorem ipsum.</h5>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- partial -->
+  <script  src="./dist/ScrollFx.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      var scrollFx = new ScrollFx({});
+    });
+
+  </script>
+
+</body>
+</html>

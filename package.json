@@ -1,0 +1,21 @@
+{
+  "name": "scroll-fx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "lodash": "^4.17.15",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
