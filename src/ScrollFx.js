@@ -97,12 +97,15 @@ export class ScrollFx {
     const containersLength = this.staggerContainers.length;
 
     for (let i = 0; i < containersLength; i++) {
-      const offset = (this.staggerContainers[i].getAttribute('data-stagger'));
+      const staggerOffset = Number(this.staggerContainers[i].getAttribute('data-stagger'));
+      const offset = this.staggerContainers[i].getAttribute('data-offset') !== null ?
+                              Number(this.staggerContainers[i].getAttribute('data-offset')) :
+                              this.options.offset;
       const staggerElements = this.staggerContainers[i].querySelectorAll('.scroll-fx');
       const staggerElemLength = staggerElements.length;
 
       for (let j = 0; j < staggerElemLength; j++) {
-        staggerElements[j].setAttribute('data-offset', offset * j);
+        staggerElements[j].setAttribute('data-offset', (offset + staggerOffset * j));
       }
     }
   }

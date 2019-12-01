@@ -40,3 +40,20 @@ The values represent the beginning state of the transformations. The completed s
   easing: 'ease-out', // other available options are 'ease-in' & 'linear'
 }
 ```
+
+## Staggering
+
+You can even apply staggering by using some markup like this:
+
+```html
+<div class="scroll-fx-stagger-container" data-stagger=".02" data-offset="0.1">
+  <div class="scroll-fx" data-translate-y="100" data-opacity="0">1</div>
+  <div class="scroll-fx" data-translate-y="100" data-opacity="0">2</div>
+  <div class="scroll-fx" data-translate-y="100" data-opacity="0">3</div>
+</div>
+```
+Do not use staggering to much. The current solution in the code is not super efficient.
+
+## General Thoughts
+
+I would recommend to use less than about 30 elements with scroll-effects. The more you use the slower it gets.
